@@ -1,0 +1,220 @@
+.home-page {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+header {
+    height: 60px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 15px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex: 1;
+}
+
+.fa-wallet {
+    font-size: 20px;
+    color: #1e88e5;
+
+}
+
+.title {
+    flex: 1;
+}
+
+.drop-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.drop-profile .dropdown-menu {
+    background-color: #615c5c;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#dropdown-basic {
+    background-color: #1e88e5;
+}
+
+.drop-bg {
+    padding: 5px 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drop-fullname-username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drop-profile-img {
+    margin-bottom: 10px;
+}
+
+.profile-img-button {
+    border: none;
+    background: transparent;
+}
+
+.modal-content {
+    background-color: #615c5c;
+}
+
+.modal-title {
+    color: rgb(255, 255, 255);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.img-upload-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.upload-btn {
+    background-color: #484444;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.label-fullname {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fullname {
+    background-color: #484444;
+}
+
+
+.first-section {
+    padding: 80px 20px;
+    background-image: url('/public/expense tracker.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+}
+
+.first-section h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.first-section p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.diagram {
+    display: flex;
+    justify-content: center;
+}
+
+.second-section {
+    padding: 2px 5px;
+
+}
+
+.main {
+    margin-top: 20px;
+
+}
+
+.user-details {
+
+    margin-top: 10px;
+    padding: 5px 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.single-user {
+    display: flex;
+    align-items: center;
+    padding: 2px 5px;
+    background-color: #615c5c;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #615c5c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullname-email {
+    padding: 5px 5px;
+}
+
+.fa-house {
+    color: #3193e8;
+}
+
+.btn {
+    background-color: #3193e8;
+    border-radius: 10px;
+}
+
+.users-link,
+.tracker-link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-items {
+    width: 250;
+    display: flex;
+    gap: 30px;
+}
+
+.menu-wrap {
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.link:hover {
+    border-bottom: 2px solid #1e88e5;
+}

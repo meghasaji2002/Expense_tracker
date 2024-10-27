@@ -1,0 +1,31 @@
+.toggle-btn .toggle-btn-ui{
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #e2e2e2;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.toggle-btn .toggle-btn-ui::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    transition: all 0.2s ease-in-out;
+}
+.toggle-btn input[type="checkbox"]:checked ~ .toggle-btn-ui{
+    background-color: #05f973;
+}
+.toggle-btn input[type="checkbox"]:checked ~ .toggle-btn-ui:after{
+    left: 18px;
+}
+.toggle-btn input[type="checkbox"]{
+    display: none;
+}

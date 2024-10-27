@@ -1,0 +1,33 @@
+.register-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/dark-background-images-5561-5821-hd-wallpapers.jpg');
+    background-size: cover;
+}
+
+.register-wrap .register-box {
+    background-color: #2e2f3a;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.register-wrap .input-username {
+    width: 100%;
+}
+
+.register-wrap .input-email {
+    width: 100%;
+}
+
+.register-wrap .input-password {
+    width: 100%;
+}

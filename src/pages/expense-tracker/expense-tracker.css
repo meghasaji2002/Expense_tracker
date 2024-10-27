@@ -1,0 +1,239 @@
+.page-dashboard{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.page-dashboard header{
+    height: 60px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    gap: 10px;
+}
+header .page-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+header .page-header .fa-wallet{
+    font-size: 20px;
+    color: #1e88e5;
+}
+
+header .date-range-box{
+    display: flex;
+    gap: 10px;
+}
+header .nav-items{
+    display: flex;
+    align-items: center;
+}
+.link{
+    margin-right: 100px;
+}
+.home-link{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.home-link:hover{
+    border-bottom:2px solid  #1e88e5;
+}
+ 
+
+header .current-balance{
+    text-align: right;
+    flex: 1;
+}
+
+header .current-balance-label{
+    font-size: 10px;
+    opacity: 0.6;
+
+}
+header .current-balance-amount{
+    font-size: 16px;
+}
+header .logout-button{
+    width: 34px;
+    padding: 0;
+    
+}
+.page-wrap{
+    padding-bottom: 10px;
+}
+
+.page-dashboard section{
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.expense-tracker{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-right: 1px solid #333;
+    padding: 15px;
+    overflow: auto;
+}
+
+.expense-tracker .add-expense-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-date-time{
+    display: flex;
+    gap: 10px;
+}
+.input-date-time input{
+    flex: 1;
+}
+.input-credit-debit-amount{
+    display: flex;
+    gap: 10px;
+
+}
+.expense-amount{
+    flex: 1;
+    min-width: 0;
+    font-size: 18px;
+    text-align: right;
+}
+.input-comment-submit{
+    display: flex;
+    gap: 10px;
+}
+.input-comment{
+    min-width: 0;
+    flex: 1;
+}
+.reset-button{
+    padding: 0;
+    width: 34px;
+}
+
+.recent-transactions h3{
+    margin-bottom: 15px;
+}
+.recent-transactions .transaction-list{
+    display: flex;
+    flex-direction: column;
+}
+.transaction-item{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #333;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.transaction-item:hover{
+    background-color: #333;
+}
+.transaction-item-box{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.transaction-item-date-comment{
+    flex: 1;
+}
+.delete-button .fa-trash{
+    color: #ea0c0c;
+}
+.delete-button{
+    border: none;
+    background-color: transparent;
+}
+.edit-button .fa-solid{
+    color: #56b568;
+}
+.edit-button{
+    border: none;
+    background-color: transparent;
+}
+.transaction-item.type-cr .transaction-item-amount,
+.transaction-item.type-cr .transaction-item-amount .fa-solid{
+    color: #419e20 ;
+    margin-left: 10px;
+}
+.transaction-item.type-cr .transaction-item-amount .fa-solid{
+    transform: rotate(180deg);
+}
+.transaction-item.type-db .transaction-item-amount, 
+.transaction-item.type-db .transaction-item-amount .fa-solid{
+    color:#d88810;
+    margin-left: 10px;
+}
+.transaction-item-date{
+    font-size: 10px;
+    opacity: 0.6;
+}
+.transaction-item-comment{
+    font-size: 10px;
+    opacity: 0.6;
+   padding-bottom: 10px;
+}
+.transaction-item-balance-amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.transaction-item-amount{
+    font-size: 16px;
+    
+}
+
+.expense-details{
+    display: flex;
+    flex: 1;
+
+}
+.expense-credits,.expense-debits{
+    flex: 1;
+    overflow: auto;
+}
+.expense-credits table,
+.expense-debits table{
+   width: 100%;
+   border-spacing: 0;
+   height: 100%;
+   border-collapse: collapse;
+}
+.expense-credits table thead,
+.expense-debits table thead{
+    background-color: #29353b;
+    position: sticky;
+    top: 0;
+}
+.expense-credits table tbody,
+.expense-debits table tbody{
+   vertical-align: top;
+}
+.expense-credits table tfoot,
+.expense-debits table tfoot{
+    background-color: #29353b;
+    position: sticky;
+    bottom: 0;
+}
+.tfoot-td-1{
+    font-size: 16px;
+}
+.tfoot-td-2{
+    font-size: 20px;
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #333;
+}
